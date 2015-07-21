@@ -1,0 +1,101 @@
+
+body {
+  left: 0;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+/* Initial menu */
+
+
+.menu {
+  background: #47a3da repeat left top;
+  left: -285px;
+  /* start off behind the scenes */
+
+  height: 100%;
+  position: fixed;
+  width: 285px;
+}
+
+/* Basic styling */
+
+
+
+.jumbotron {
+  background-color: #258ecd;
+  height: 100%;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.menu ul {
+  border-top: 1px solid #258ecd;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  border-bottom: 1px solid #258ecd;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.menu a {
+  color: #afdefa;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.icon-close {
+  cursor: pointer;
+  padding-left: 10px;
+  padding-top: 10px;
+  color: #afdefa;
+}
+
+.icon-close a {
+  cursor : pointer;
+  color: #afdefa;
+  font-family: 'Open Sans', sans-serif;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-left: 20px;
+  padding-top: 3px;
+}
+
+.icon-menu {
+  color: #afdefa;
+  cursor: pointer;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+h1 {
+color:#fff;
+  padding-bottom: 25px;
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.jquery-script-ads {padding-left: 25px;}
+
+.icon-menu i { margin-right: 5px; }
+
+p {
+  color: #afdefa;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}

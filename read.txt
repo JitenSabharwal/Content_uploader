@@ -1,0 +1,9 @@
+How to use Content Uploader
+
+1)All Html files will go into "load" folder
+
+2)Add Files related to datbase will go in "classes" folder
+
+3)All json files will be saved in "json" folder in .json format
+
+4)Content will get loaded in responseholder <div>
