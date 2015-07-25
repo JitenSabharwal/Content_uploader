@@ -17,8 +17,8 @@
 		<form action="json.php" onsubmit="retrun false" method="POST" class="col l12 m12 s12">
 			<div class="input-field col l2 m2 hide-on-small-only">&nbsp;</div>
 			<div class="input-field col l8 m8 s12">
-				<input id="heading" type="text" name="heading" class="heading">
-	        	<label for="heading">Enter Heading</label>
+				<input id="heading" type="text" name="heading" class="heading" required >
+	        	<label for="heading">Enter Event Name </label>
 			</div>
 			<div class="input-field col l2 m2 hide-on-small-only">&nbsp;</div>
 

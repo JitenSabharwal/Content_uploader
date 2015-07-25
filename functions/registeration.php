@@ -50,8 +50,6 @@ function unique_salt() {
    		echo "true";
    	else
    		echo "false";
-   	//$stm=$dbh->prepare("insert into tbl(username,password,salt) values('".$user."','".$pass."','".$unique_salt."')");
-   //$stm->execute();
- 	$db->disconnect();
+   $db->disconnect();
 }
 ?> 

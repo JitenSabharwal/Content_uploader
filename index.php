@@ -60,8 +60,8 @@ include '/login/login_status.php';
                       <ul>
                         
                         <li ><a class="link" data-target="main.php" href="#">Add Event</a></li>
-                        <li ><a class="link" data-target="./functions/update.php" href="#">Update Envent</a></li>
-                        <li ><a class="link" data-target="contact.php" href="#">Contact</a></li>
+                        <!--li ><a class="link" data-target="./functions/update.php" href="#">Update Envent</a></li-->
+                        <li ><a class="link" data-target="./functions/view.php" href="#">View</a></li>
                         <li ><a class="linkout" data-target="logout.php" href="#">Logout</a></li>
                       </ul>
                     </div>

@@ -7,12 +7,10 @@ function verify()
 	var password=document.forms['loginform'].elements['password'].value;
 	
 	var str="login="+login+"&password="+password+"&Submit=Submit";
-	alert(str);
 	xml=createAjaxObj();
 	xml.open("POST","./functions/login_verify.php",false);
 	xml.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 	xml.send(str);
-	alert(xml.responseText);
 	switch(xml.responseText.trim())
 	{
 		case "Success" : 	window.open("index.php","_self");
@@ -38,7 +36,6 @@ function registerme()
 	xml.open("POST","./functions/registeration.php",false);
 	xml.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 	xml.send(str);
-	alert(xml.responseText);
 	if(xml.responseText.trim()=="true")
 	{
 		alert("You are Successfully Registered"+"<br>"+"Username= "+username+"<br>"+"Password= "+password);

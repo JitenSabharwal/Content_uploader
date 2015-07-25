@@ -27,30 +27,29 @@
 		//function to connect to database	
 		function connect()
 		{
-			$this->connection=mysql_connect($this->host,$this->user,$this->password) or die(mysql_error());
-			mysql_select_db($this->database) or die(mysql_error());
+			$this->connection=mysqli_connect($this->host,$this->user,$this->password,$this->database) or die(mysqli_error());
 		}
 
 		//function to insert data in database
 		function insertData($insertQuery)
 		{	
-			return mysql_query($insertQuery , $this->connection) or die(err);
+			return mysqli_query($this->connection,$insertQuery) or die("error");
 		}
 		
 
 		//function to select data from database
 		function selectData($selectQuery)
 		{
-			return mysql_query($selectQuery,$this->connection);
+			return mysqli_query($this->connection,$selectQuery);
 		}
 		function del($delQuery)
 		{
-			return mysql_query($delQuery,$this->connection);
+			return mysqli_query($this->connection , $delQuery);
 		}
 		//function to disconnect the current connection from database
 		function disconnect()
 		{
-			mysql_close($this->connection);
+			mysqli_close($this->connection);
 		}
 	}
 
