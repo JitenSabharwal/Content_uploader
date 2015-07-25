@@ -21,12 +21,12 @@
 		
 		<form action="" method="POST" name="loginform" class="col l6 m6 s12">
 			<div class="input-field">
-	          <input id="username" type="text" name="login" required pattern="[A-Za-z][A-Za-z0-9]+">
+	          <input id="username" type="email" name="login" required >
 	          <label for="username">Username</label>
 	        </div>
 
 	        <div class="input-field">
-	          <input id="password" type="password" name="password" required pattern="[A-Za-z$_/-][A-Za-z0-9]+">
+	          <input id="password" type="password" name="password" required pattern="[A-Za-z$_/-0-9]+">
 	          <label for="password">Password</label>
 	        </div>
 	        <center>

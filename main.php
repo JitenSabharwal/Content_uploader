@@ -34,12 +34,12 @@
 
 			<div class="input-field col l6 m6 s12">
 				<div class="intro content card">
-					<textarea id="intro" class="materialize-textarea introText" name="intro" placeholder="Introduction"></textarea>
+					<textarea id="intro" class="materialize-textarea introText" name="intro" placeholder="Introduction" required></textarea>
 				</div>
 
 				<div class="rules content">
 					<div class="rulewrap">
-						<textarea class="materialize-textarea rulesName" name="rule[]" placeholder="Enter Rule"></textarea>
+						<textarea class="materialize-textarea rulesName" name="rule[]" placeholder="Enter Rule" required></textarea>
 					</div>
 
 					<center>
@@ -50,8 +50,8 @@
 				<div class="rounds content">
 					<div class="roundWrap">
 						<div class="card">
-							<input type="text" name="r[]" placeholder="Round Name" class="roundName">
-							<textarea class="materialize-textarea roundDetails" name="rt[]" placeholder="Round Details"></textarea>
+							<input type="text" name="r[]" placeholder="Round Name" class="roundName" required>
+							<textarea class="materialize-textarea roundDetails" name="rt[]" placeholder="Round Details" required></textarea>
 						</div>
 					</div>
 
@@ -63,8 +63,8 @@
 				<div class="contact content">
 					<div class="contactWrap">
 						<div class="card">
-							<input type="text" name="c[]" placeholder="Co-ordinator Name" class="cName">
-							<input type="text" name="cp[]" placeholder="Contact Number" class="cContact">
+							<input type="text" name="c[]" placeholder="Co-ordinator Name" class="cName" required>
+							<input type="text" name="cp[]" placeholder="Contact Number" class="cContact" required>
 						</div>
 					</div>
 

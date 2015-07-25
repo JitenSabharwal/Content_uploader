@@ -1,8 +1,9 @@
 <script>
 	$(document).ready(function(){
 		  $(".display").bind('click',function(){
-                    var a=$(this).data("value");
-                    window.open("./functions/display.php?record="+a);
+                    var a=$(this).data("value1");
+                    var b=$(this).data("value2");
+                    window.open("./functions/display.php?record="+a+"&head="+b);
                 });        
 	})
 </script>
@@ -39,7 +40,7 @@
 		<td>	<?php echo $GLOBALS['event_name']; 	?>  	</td>
 		<td>	<?php echo $GLOBALS['event_domain']; 	?>  	</td>
 		<td>	<?php echo $GLOBALS['time']; 	?>  	</td>
-		<td>	<a class="display" data-value="<?php echo $GLOBALS['event_path'];?>" href="#">View</a> </td>
+		<td>	<a class="display" data-value1="<?php echo $GLOBALS['event_path'];?>" data-value2="<?php echo $GLOBALS['event_name'];?>" href="#">View</a> </td>
 	</tr>
 	</tbody>
 

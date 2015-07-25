@@ -118,7 +118,7 @@ $(document).ready(function(){
                             var obj = '{"'+heading+'":[{'
                                    +'"intro": "'+intro +'",'
                                    +'"rules": ["'+ruless+'"],'
-                                   +'"rounds": ["'+round+'"],'+'"round-Details" :["'+roundde+'"],'+'"Co-ordinator" :["'+cod+'"],'+'"Co-ordinator number" : ["'+coc+'"]'
+                                   +'"rounds": ["'+round+'"],'+'"round_Details" :["'+roundde+'"],'+'"Co_ordinator" :["'+cod+'"],'+'"Co_ordinator_number" : ["'+coc+'"]'
                                    +'}]'+'}';
                                    console.log(obj);
                             if(obj.length>0){

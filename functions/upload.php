@@ -48,8 +48,7 @@ $head = $_REQUEST["head"];
 							$path=$targetfolder.$GLOBALS['domain']."/".$head.".json";
 							$myfile = fopen($path, "w") or die("Unable to open file!");
 							fwrite($myfile, $var2);
-							
-							echo $path;		
+							$path="content/".$GLOBALS['domain']."/".$head.".json";		
 						}			
 ?>
 <?php
